@@ -12,6 +12,7 @@ Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/andweeb/presence.nvim'
 Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/ryanoasis/vim-devicons'
+Plug 'https://github.com/github/copilot.vim'
 
 call plug#end()
 
