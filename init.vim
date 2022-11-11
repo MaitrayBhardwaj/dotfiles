@@ -15,12 +15,13 @@ Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/github/copilot.vim'
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'https://github.com/tpope/vim-commentary'
-Plug 'https://github.com/sheerun/vim-polyglot'
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
 
 call plug#end()
 
-nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFocus<CR>
 
 :colorscheme purify
